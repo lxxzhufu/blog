@@ -428,6 +428,46 @@
             
         
         <article class="index-post">
+            <a class="abstract-title" href="/2022/09/18/openwrt%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/">
+                
+                <span class="abstract-title-text">openwrt开机启动脚本问题</span>
+            </a>
+            <div class="abstract-content">
+                转自http://www.cnyubin.com/?p=364
+今天在使用Openwrt时，需要将scp到上面的程序设置为开机自动启动。按照Linux下设置自动启动的方法并不有效。后来在官方wiki下发现了介绍文章，具体可见Openwrt下 http://wiki.openwrt.org/doc/techref/initscripts
+
+在&#x2F;etc&#x2F;init.d&#x2F;中按照以下格式编写shell脚本
+
+   12345678910111213#!/bin/sh /etc/rc.commonSTART=99STOP=15 start() &#123;  echo ...
+            </div>
+            <!-- read more -->
+            
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2022/09/18">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/09/18</span>
+                </div>
+                <!-- tags -->
+                
+                    <div class= abstract-tags >
+    
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="openwrt">openwrt</a>
+    
+</div>
+
+                
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+    
+        
+        
+        
+        
+            
+        
+        <article class="index-post">
             <a class="abstract-title" href="/2022/06/30/ceshi/">
                 
                 <span class="abstract-title-text">linux下添加环境变量</span>
@@ -455,46 +495,6 @@ export PATH&#x3D;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;:$PATH，将&#x2
     
     
         <a class="post-tag" href="javascript:void(0);" data-tags="linux">linux</a>
-    
-</div>
-
-                
-            </div>
-        </article>
-        <div class="index-post-divider"></div>
-    
-        
-        
-        
-        
-            
-        
-        <article class="index-post">
-            <a class="abstract-title" href="/2022/06/30/openwrt%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/">
-                
-                <span class="abstract-title-text">openrt开机启动问题</span>
-            </a>
-            <div class="abstract-content">
-                转自http://www.cnyubin.com/?p=364
-今天在使用Openwrt时，需要将scp到上面的程序设置为开机自动启动。按照Linux下设置自动启动的方法并不有效。后来在官方wiki下发现了介绍文章，具体可见Openwrt下 http://wiki.openwrt.org/doc/techref/initscripts
-
-在&#x2F;etc&#x2F;init.d&#x2F;中按照以下格式编写shell脚本
-
-   12345678910111213#!/bin/sh /etc/rc.commonSTART=99STOP=15 start() &#123;  echo ...
-            </div>
-            <!-- read more -->
-            
-            <div class="abstract-post-meta">
-                <!-- date -->
-                <div class="abstract-date" title="Last updated: 2022/09/18">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/06/30</span>
-                </div>
-                <!-- tags -->
-                
-                    <div class= abstract-tags >
-    
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="openwrt">openwrt</a>
     
 </div>
 
@@ -648,6 +648,8 @@ export PATH&#x3D;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;:$PATH，将&#x2
         
         
         
+        
+        
     
     
     
@@ -670,6 +672,12 @@ export PATH&#x3D;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;:$PATH，将&#x2
             
         
         <li class="archive-post-item">
+            <span class="archive-post-date">09/18</span>
+            <a class="archive-post-title" href="/2022/09/18/openwrt%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/">openwrt开机启动脚本问题</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
             <span class="archive-post-date">06/30</span>
             <a class="archive-post-title" href="/2022/06/30/code/">你好，世界</a>
         </li>
@@ -690,12 +698,6 @@ export PATH&#x3D;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;:$PATH，将&#x2
         <li class="archive-post-item">
             <span class="archive-post-date">06/30</span>
             <a class="archive-post-title" href="/2022/06/30/ceshi/">linux下添加环境变量</a>
-        </li>
-    
-        
-        <li class="archive-post-item">
-            <span class="archive-post-date">06/30</span>
-            <a class="archive-post-title" href="/2022/06/30/openwrt%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/">openrt开机启动问题</a>
         </li>
     
     </div>
